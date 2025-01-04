@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo .highlight {
+    color: pink;
+}
+
+.nav-left,
+.nav-right {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-left li,
+.nav-right li {
+    margin: 0 10px;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    color: pink;
+}
+
+.nav-right li i {
+    font-size: 1.2rem;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-menu li {
+    margin: 10px 0;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+
+.mobile-menu a:hover {
+    color: pink;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+        gap: 40px;
+  
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    color: #666;
+}
+
+.hero-content .highlight {
+    color: #0078ff;
+    /* Highlight color */
+    font-weight: bold;
+}
+
+.hero-content .word {
+    color: #333;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-image img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+
+  .wave-section {
+    position: relative;
+    height: 150px; 
+    overflow: hidden;
+    background-color: #ffffff 
+  }
+
+  .wave-section svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .wave1 {
+    fill: #ff69b4; 
+    opacity: 0.7;
+  }
+
+  .wave2 {
+    fill: #ffb6c1; 
+    opacity: 0.5;
+  }
+
+  .wave3 {
+    fill: #ffffff; 
+    opacity: 0.4;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .science-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .science-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .science-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .science-image img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50% / 40%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #fff;
+  }
+  
+  .info-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+  }
+  
+  .box {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 120px;
+  }
+  
+  .box span {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Right Content */
+  .science-content {
+    flex: 2;
+    text-align: left;
+  }
+  
+  /* Heading Styling */
+  .science-content h1 span {
+    display: inline-block;
+  }
+  
+  .pink {
+    color: #ff5eaa;
+  }
+  
+  .black {
+    color: #000;
+  }
+  
+  .sky-blue {
+    color: #00bfff;
+  }
+  
+  /* Paragraphs */
+  .science-content p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Button Styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0078ff;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+
+  .blue-wave-section-small {
+    position: relative;
+    height: 80px; /* Smaller height */
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky blue background */
+  }
+
+  .blue-wave-section-small svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .blue-wave1-small {
+    fill: #0000FF; /* Blue */
+    opacity: 0.8;
+  }
+
+  .blue-wave2-small {
+    fill: #87CEEB; /* Sky blue */
+    opacity: 0.6;
+  }
+
+  .blue-wave3-small {
+    fill: #FFFFFF; /* White */
+    opacity: 0.4;
+  }
+
+/*
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+ 
+}
+
+@media (max-width: 768px) {
+  
+
+  .left-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .left-content h1 {
+    font-size: 18px;
+  }
+
+  .left-content p {
+    font-size: 14px;
+  }
+
+  
+}
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .science-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .info-boxes {
+      order: 2;
+      margin-top: 20px;
+    }
+  
+    .science-image img {
+      width: 250px;
+      height: 350px;
+    }
+  }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+    .nav-left,
+    .nav-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+} 
+.container {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .text-section {
+    flex: 1; /* Make the text section flexible */
+    margin-right: 20px; /* Add some spacing between sections */
+  }
+  
+  .image-section {
+    flex: 0 0 auto; /* Make the image section fixed width */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+  } 
+ /*zaiba*/ 
+ .container {
+    display: flex; /* Use flexbox for horizontal layout */
+  }
+  img {
+    max-width: 500px; /* Adjust as needed */
+    height: auto; 
+    margin: 5px; /* Add some spacing between images */
+  } 
+   /*zaiba
+  
+
+   /*zaiba*/ 
+   #contact {
+    padding: 50px 0;
+    background-color: #f8f8f8; /* Un leggero sfondo grigio */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; /* Centra il contenuto */
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    color: #333; /* Testo più scuro per il titolo */
+}
+
+.contact-info {
+    display: flex; /* Utilizza flexbox per disporre le informazioni in orizzontale */
+    justify-content: center; /* Centra orizzontalmente le informazioni */
+    flex-wrap: wrap; /* Permette il "wrap" su schermi più piccoli */
+    margin-bottom: 30px;
+}
+
+.info-item {
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info-item i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff; /* Colore blu per le icone */
+}
+
+#contact input, #contact textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding e border nella larghezza */
+}
+
+#contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design per schermi più piccoli */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column; /* Impila le informazioni verticalmente */
+        align-items: center;
+    }
+} 
+/*zaiba*/ 
+body {
+    margin: 0; /* Rimuove i margini predefiniti del body */
+    font-family: sans-serif;
+    display: flex; /* Utilizza flexbox per il layout */
+    flex-direction: column; /* Dispone gli elementi in colonna */
+    min-height: 100vh; /* Assicura che il body occupi almeno l'altezza della viewport */
+}
+
+main {
+    flex: 1; /* Permette al main di espandersi per occupare lo spazio disponibile */
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Sfondo scuro */
+    color: #fff; /* Testo bianco */
+    padding: 20px 0; /* Spazio interno superiore e inferiore */
+    text-align: center; /* Centra il testo */
+}
+
+.container {
+    max-width: 960px; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore */
+    padding: 0 20px; /* Spazio interno laterale */
+    display: flex;
+    justify-content: space-between; /* Distribuisce lo spazio tra gli elementi */
+    align-items: center; /* Allinea verticalmente gli elementi */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive per schermi più piccoli */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Impila gli elementi verticalmente */
+        text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+}

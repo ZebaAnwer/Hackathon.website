@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Navbar</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Locations</a></li>
+        </ul>
+        <div class="logo">CDS22<span class="highlight">-formula</span></div>
+        <ul class="nav-right">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#"><i class="fas fa-lock"></i></a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#"><i class="fas fa-lock"></i></a></li>
+        </ul>
+    </div>
+
+
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>
+                The <span class="highlight">De Simone</span> <span class="word">Formulation</span> unique and certified
+                by <span class="highlight">the Inventor</span>
+            </h1>
+            <p>
+                The De Simone Formulation unique and certified by the Inventor
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="asset.pic/cds11.png" alt="Product Image">
+        </div>
+    </section>
+    
+    
+    <div class="wave-section">
+        <!-- Dark Pink Wave -->
+        <svg class="wave1" viewBox="0 0 1440 160">
+          <path d="M0,80L40,93.3C80,107,160,133,240,125.3C320,117,400,77,480,73.3C560,69,640,101,720,101C800,101,880,77,960,64C1040,51,1120,51,1200,60C1280,69,1360,93,1400,106.7L1440,120L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+        <!-- Light Pink Wave -->
+        <svg class="wave2" viewBox="0 0 1440 160">
+          <path d="M0,120L40,106.7C80,93,160,69,240,64C320,59,400,77,480,77.3C560,77,640,53,720,60C800,67,880,101,960,96C1040,91,1120,77,1200,80C1280,83,1360,107,1400,112L1440,120L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+        <!-- White Wave -->
+        <svg class="wave3" viewBox="0 0 1440 160">
+          <path d="M0,160L40,160C80,160,160,160,240,160C320,160,400,160,480,160C560,160,640,160,720,160C800,160,880,160,960,160C1040,160,1120,160,1200,160C1280,160,1360,160,1400,160L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+      </div>
+
+  
+        <!-- Section Start -->
+        <section class="science-section">
+          <div class="science-container">
+            <!-- Left Image -->
+            <div class="science-image">
+              <img src="asset.pic/cds33.png" alt="Doctor">
+            </div>
+      
+            <!-- Middle Info Boxes -->
+            <div class="info-boxes">
+              <div class="box">20+ <br><span>Awards</span></div>
+              <div class="box">8 <br><span>Patents</span></div>
+              <div class="box">900 <br><span>Clinical Studies</span></div>
+              <div class="box">200 <br><span>Million Users</span></div>
+            </div>
+      
+            <!-- Right Content -->
+            <div class="science-content">
+              <h1>
+                <span class="pink">Science</span> <span class="black">Speaks</span> <span class="sky-blue">For Itself</span>
+              </h1>
+              <p>
+                The De Simone Formulation contained in CDS22-formula is the only probiotic formulation recommended and recognized by name in the American College of Gastroenterology for the management of gastrointestinal diseases.
+              </p>
+              <p>
+                The European Crohn’s and Colitis Organization (ECCO) has included the De Simone Formulation in its guidelines for the management of Inflammatory Bowel Diseases.
+              </p>
+              <button>View Products</button>
+            </div>
+          </div>
+        </section>
+        <!-- Section End -->
+
+        <div class="blue-wave-section-small">
+          <!-- Blue Wave -->
+          <svg class="blue-wave1-small" viewBox="0 0 1440 100">
+            <path d="M0,40L48,50C96,60,192,80,288,70C384,60,480,30,576,20C672,10,768,40,864,50C960,60,1056,60,1152,60C1248,60,1344,60,1392,60L1440,60L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg>
+          <!-- Sky Blue Wave -->
+          <svg class="blue-wave2-small" viewBox="0 0 1440 100">
+            <path d="M0,60L48,68.3C96,77,192,85,288,82C384,79,480,67,576,60C672,53,768,54,864,60C960,67,1056,83,1152,80C1248,77,1344,60,1392,50L1440,40L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg>
+          <!-- White Wave -->
+          <svg class="blue-wave3-small" viewBox="0 0 1440 100">
+            <path d="M0,80L48,80C96,80,192,80,288,78C384,76,480,72,576,75C672,78,768,83,864,86C960,89,1056,83,1152,80C1248,76,1344,72,1392,69L1440,66L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg>
+        </div> 
+        <!--zaiba-->
+     
+        <div class="container">
+            <div class="text-section"> 
+                <center><h1><strong>WHY DOES IT WORK</strong></h1></center>
+            <center>  <p>This is the first paragraph.</p>
+              <p>This is the second paragraph.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi velit odio itaque nam! Possimus explicabo quod dicta autem rerum hic animi laudantium quia quisquam corrupti sequi totam, officiis repellat esse..</p>
+            </center> </div>
+        
+            <div class="image-section">
+              <img src="asset.pic/cds22.png" alt="Image description"> 
+            </div>
+          </div>
+          <!--zaiba-->
+          <div class="container">
+            <img src="asset.pic/cds11.png" alt="Image 1">
+            <img src="asset.pic/cds11.png" alt="Image 2">
+            <img src="asset.pic/cds11.png" alt="Image 3">
+          </div>
+<!--zaiba-->
+         <!--<div class="container">
+            <div class="text-section"> 
+                <center><h1><strong>Lorem ipsum dolor sit amet.</strong></h1></center>
+           <ul> 
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quae recusandae odio aliquid, quasi natus! Consequatur, esse. Maxime eius odio commodi laborum harum officia suscipit cumque velit modi. Doloremque, eius!</li>
+             
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quae recusandae odio aliquid, quasi natus! Consequatur, esse. Maxime eius odio commodi laborum harum officia suscipit cumque velit modi. Doloremque, eius!</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quae recusandae odio aliquid, quasi natus! Consequatur, esse. Maxime eius odio commodi laborum harum officia suscipit cumque velit modi. Doloremque, eius!</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quae recusandae odio aliquid, quasi natus! Consequatur, esse. Maxime eius odio commodi laborum harum officia suscipit cumque velit modi. Doloremque, eius!</li>
+            </ul>
+            </div> 
+        -->
+            <section id="contact">
+                <div class="container">
+                    <h2>Contattaci</h2>
+                    <p>Hai domande? Non esitare a contattarci.</p>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i> <p>Via Esempio, 123 - Città</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i> <p>+39 123 456 7890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i> <p>info@esempio.com</p>
+                </div>
+            </div>
+            <form action="#" method="post">
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" placeholder="Messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section> 
+     <!--zaiba-->
+    <main>
+        <h1>Contenuto principale</h1>
+        <p>Questo è il contenuto principale della pagina.</p>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Il Mio Sito. Tutti i diritti riservati.</p>
+            <nav>
+              <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

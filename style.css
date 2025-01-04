@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
+    background-color:rgb(235, 235, 14);
 }
 
 .navbar {
@@ -461,7 +462,7 @@ body {
    /*zaiba
   
 
-   /*zaiba*/ 
+   /*zaiba*/
    #contact {
     padding: 50px 0;
     background-color: #f8f8f8; /* Un leggero sfondo grigio */
@@ -529,51 +530,148 @@ body {
 } 
 /*zaiba*/ 
 body {
-    margin: 0; /* Rimuove i margini predefiniti del body */
-    font-family: sans-serif;
-    display: flex; /* Utilizza flexbox per il layout */
-    flex-direction: column; /* Dispone gli elementi in colonna */
-    min-height: 100vh; /* Assicura che il body occupi almeno l'altezza della viewport */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif; /* Choose a suitable font */
 }
 
-main {
-    flex: 1; /* Permette al main di espandersi per occupare lo spazio disponibile */
-    padding: 20px;
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 20px;
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+}
+
+.benefits-list h3 {
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 10px;
+  color: #333; /* Darker heading color */
+}
+
+.benefits-list ul {
+  list-style-type: disc; /* Use bullet points */
+  padding-left: 20px; /* Indent the list */
+}
+
+.benefits-list li {
+  margin-bottom: 5px; /* Space between list items */
+}
+/*zaiba 2code*/ 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.faq-question {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+/*zaiba3code*/ 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 footer {
-    background-color: #333; /* Sfondo scuro */
-    color: #fff; /* Testo bianco */
-    padding: 20px 0; /* Spazio interno superiore e inferiore */
-    text-align: center; /* Centra il testo */
+  background-color: #2dc2c7; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center; /* Center text horizontally */
+  padding: 1rem 0; /* Add padding for space */
+  bottom: 0; /* Position at the bottom */
+  width: 100%; /* Full width */
 }
 
-.container {
-    max-width: 960px; /* Larghezza massima del contenitore */
-    margin: 0 auto; /* Centra il contenitore */
-    padding: 0 20px; /* Spazio interno laterale */
-    display: flex;
-    justify-content: space-between; /* Distribuisce lo spazio tra gli elementi */
-    align-items: center; /* Allinea verticalmente gli elementi */
-}
 
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
 
-footer a:hover {
-    text-decoration: underline;
-}
 
-/* Responsive per schermi più piccoli */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Impila gli elementi verticalmente */
-        text-align: center;
-    }
-    nav {
-      margin-top: 10px;
-    }
-}
+
+
